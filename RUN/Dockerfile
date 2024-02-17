@@ -1,4 +1,3 @@
 #almalinux is same as centos
-FROM centos:8
-RUN yum -y update
+FROM almalinux:8
 RUN yum install nginx -y
